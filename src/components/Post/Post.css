@@ -1,0 +1,19 @@
+.Post {
+  max-width: 20rem;
+  min-width: 10rem;
+  text-align: justify;
+  margin: 1rem;
+  border: 1px solid rgba(250, 128, 114, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.Post:hover {
+  background-color: rgba(250, 128, 114, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Post-link {
+  text-decoration: none;
+  color: inherit;
+}

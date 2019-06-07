@@ -1,0 +1,81 @@
+.PostPage {
+  text-align: justify;
+}
+
+.PostPage-body {
+  padding: 0 5%;
+}
+
+.PostPage h3 {
+  padding: 1rem 2rem;
+  background-color: rgba(179, 177, 177, 0.2);
+}
+
+.PostPage h5 {
+  padding: 0.5rem;
+}
+
+.PostPage-comments {
+  text-align: center;
+}
+
+.PostPage-comments h4 {
+  padding: 0.5rem;
+  background-color: rgba(179, 177, 177, 0.2);
+}
+
+.PostPage-comments p {
+  border-bottom: 1px solid rgba(179, 177, 177, 0.2);
+}
+
+.PostsPage-btnback {
+  background-color: rgba(105, 142, 245, 0.7);
+  border-radius: 1rem;
+  margin: 1rem auto;
+  width: 10rem;
+  margin-left: 1rem;
+}
+
+.PostsPage-btnback:hover {
+  background-color: rgba(105, 142, 245, 0.5);
+  color: #fff;
+}
+
+.PostsPage-btnsubmit {
+  background-color: rgba(109, 255, 206, 0.7);
+  border-radius: 1rem;
+  margin: 1rem auto;
+  width: 10rem;
+}
+
+.PostsPage-btnsubmit:hover {
+  background-color: rgba(109, 255, 206, 0.5);
+  color: #fff;
+}
+
+.PostsPage-form {
+  background-color: rgba(179, 177, 177, 0.2);
+  margin: auto;
+  text-align: center;
+}
+
+.PostsPage-formgroup {
+  margin: auto;
+  max-width: 30rem;
+}
+
+.PostsPage-forminput {
+  width: 100%;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: inherit;
+  border-radius: 1rem;
+  border: 1px solid rgba(179, 177, 177, 0.1);
+  outline: rgba(133, 241, 241, 0.1);
+}
+
+@media all and (max-width: 1024px) {
+  .PostsPage-btnback {}
+}
